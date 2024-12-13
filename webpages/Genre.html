@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Genre</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet2.css">
+  <style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 10px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body background="color:black;">
+  <header>
+    <nav><!--navigation bar them being the image(links to home page),Animanga
+      Studios, Genre and form-->
+      <a href="ahome.html"><img src="icon1trial.jpg"></a>
+      <ul>
+        <li><a href="animanga.html">Animanga</a></li><!--the features are sticky,block and hover-->
+        <li><a href="Studios.html">Studios</a></li>
+        <li><a href="form.html">Sign up</a> </li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Genre</a><!--here a drop-down has been used for which internal styling has been used the features being inline-block,sizing and hover-->
+          <div class="dropdown-content">
+            <a href="#Shounen">Shounen</a><!--these r all id's to which the contents of drop down will point out to-->
+            <a href="#Shoujo">Shoujo</a>
+            <a href="#SOL">SOL</a>
+            <a href="#drama">Drama</a>
+            <a href="#Charecters">Charecters</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="slidar"><!--this is a video clip which is added with features being sizing z-index and margins-->
+    <div class="slida">
+      <video src="vid5.mp4" autoplay loop></video>
+    </div>
+  </div>
+
+  <div class="genres" style="color:antiquewhite;">
+    <h1>Introduction</h1>
+    <p>In Anime we can find a variety of Genre and Sub-Genre ranging from Action,Adventure 
+      Mecha,Drama and Romance. To classify all of them seperatly would be a great deal so here 
+      we have classified them into 3 genre and above that we have given a slot for charecters as well.
+    </p>
+  </div>
+
+  <div class="shonen" id="Shounen"><h1 style="color:white;">Shounen</h1><!--this is a flex divisioin containing contents which displayes information and images-->
+    <div class="step1"><!--these are the same features of step1 containing grid ,sizing and hovering propeties-->
+      <h1 >One Piece</h1>
+      <img src="shonen1.webp">
+      <p style="margin:10px;">The first one in the list is One piece it is Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King.
+
+        Enter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece
+       </p>
+    </div>
+    <div class="step1"><!--it is the same for all upcoming sub divisions inside this grid-->
+      <h1 >FullMetal Alchemist :Brotherhood</h1>
+      <img src="shonen2.webp">
+      <p>
+        After a horrific alchemy experiment goes wrong in the Elric household, brothers Edward and Alphonse are left in a catastrophic new reality. Ignoring the alchemical principle banning human transmutation, the boys attempted to bring their recently deceased mother back to life. Instead, they suffered brutal personal loss: Alphonse's body disintegrated while Edward lost a leg and then sacrificed an arm to keep Alphonse's soul in the physical realm by binding it to a hulking suit of armor.
+
+The brothers are rescued by their neighbor Pinako Rockbell and her granddaughter Winry. Known as a bio-mechanical engineering prodigy, Winry creates prosthetic limbs for Edward by utilizing "automail," a tough, versatile metal used in robots and combat armor. After years of training, the Elric brothers set off on a quest to restore their bodies by locating the Philosopher's Stone—a powerful gem that allows an alchemist to defy the traditional laws of Equivalent Exchange.
+
+As Edward becomes an infamous alchemist and gains the nickname "Fullmetal," the boys' journey embroils them in a growing conspiracy that threatens the fate of the world
+      </p>
+    </div>
+    <div class="step1">
+      <h1>Naruto</h1>
+      <img src="shonen3.webp">
+      <p>
+        Moments prior to Naruto Uzumaki's birth, a huge demon known as the Kyuubi, the Nine-Tailed Fox, attacked Konohagakure, the Hidden Leaf Village, and wreaked havoc. In order to put an end to the Kyuubi's rampage, the leader of the village, the Fourth Hokage, sacrificed his life and sealed the monstrous beast inside the newborn Naruto.
+
+Now, Naruto is a hyperactive and knuckle-headed ninja still living in Konohagakure. Shunned because of the Kyuubi inside him, Naruto struggles to find his place in the village, while his burning desire to become the Hokage of Konohagakure leads him not only to some great new friends, but also some deadly foes.
+      </p>
+    </div>
+      <div class="step2">
+        <h1>Bleach</h1>
+        <img src="shonen4.webp">
+        <p>
+          Ichigo Kurosaki is an ordinary high schooler—until his family is attacked by a Hollow, a corrupt spirit that seeks to devour human souls. It is then that he meets a Soul Reaper named Rukia Kuchiki, who gets injured while protecting Ichigo's family from the assailant. To save his family, Ichigo accepts Rukia's offer of taking her powers and becomes a Soul Reaper as a result.
+
+          However, as Rukia is unable to regain her powers, Ichigo is given the daunting task of hunting down the Hollows that plague their town. However, he is not alone in his fight, as he is later joined by his friends—classmates Orihime Inoue, Yasutora Sado, and Uryuu Ishida—who each have their own unique abilities. As Ichigo and his comrades get used to their new duties and support each other on and off the battlefield, the young Soul Reaper soon learns that the Hollows are not the only real threat to the human world.
+        </p>
+    </div>
+      <div class="step2">
+        <h1>Dragon Ball Z</h1>
+        <img src="shonen5.webp">
+        <p>
+          ive years after winning the World Martial Arts tournament, Gokuu is now living a peaceful life with his wife and son. This changes, however, with the arrival of a mysterious enemy named Raditz who presents himself as Gokuu's long-lost brother. He reveals that Gokuu is a warrior from the once powerful but now virtually extinct Saiyan race, whose homeworld was completely annihilated. When he was sent to Earth as a baby, Gokuu's sole purpose was to conquer and destroy the planet; but after suffering amnesia from a head injury, his violent and savage nature changed, and instead was raised as a kind and well-mannered boy, now fighting to protect others.
+
+With his failed attempt at forcibly recruiting Gokuu as an ally, Raditz warns Gokuu's friends of a new threat that's rapidly approaching Earth—one that could plunge Earth into an intergalactic conflict and cause the heavens themselves to shake. A war will be fought over the seven mystical dragon balls, and only the strongest will survive in Dragon Ball Z
+        </p>
+      </div>
+<div class="step2">
+  <h1>Attack on Titan</h1>
+  <img src="shonen6.webp">
+  <p>
+    Centuries ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called Titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human flesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. However, that fragile calm is soon shattered when a colossal Titan manages to breach the supposedly impregnable outer wall, reigniting the fight for survival against the man-eating abominations.
+
+After witnessing a horrific personal loss at the hands of the invading creatures, Eren Yeager dedicates his life to their eradication by enlisting into the Survey Corps, an elite military unit that combats the merciless humanoids outside the protection of the walls. Eren, his adopted sister Mikasa Ackerman, and his childhood friend Armin Arlert join the brutal war against the Titans and race to discover a way of defeating them before the last walls are breached
+  </p>
+</div>
+<div class="step1">
+  <h1>One Punch Man</h1>
+  <img src="shonen7.webp">
+  <p>
+    The seemingly unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, Saitama relentlessly trained for three years, losing all of his hair in the process. Now, Saitama is so powerful, he can defeat any enemy with just one punch. However, having no one capable of matching his strength has led Saitama to an unexpected problem—he is no longer able to enjoy the thrill of battling and has become quite bored.
+
+One day, Saitama catches the attention of 19-year-old cyborg Genos, who witnesses his power and wishes to become Saitama's disciple. Genos proposes that the two join the Hero Association in order to become certified heroes that will be recognized for their positive contributions to society. Saitama, who is shocked that no one knows who he is, quickly agrees. Meeting new allies and taking on new foes, Saitama embarks on a new journey as a member of the Hero Association to experience the excitement of battle he once felt
+  </p>
+</div>
+<div class="step1">
+  <h1>Tokyo Ghoul</h1>
+  <img src="shonen8.webp">
+  <p>
+    A sinister threat is invading Tokyo: flesh-eating "ghouls" who appear identical to humans and blend into their population. Reserved college student Ken Kaneki buries his nose in books and avoids the news of the growing crisis. However, the appearance of an attractive woman named Rize Kamishiro shatters his solitude when she forwardly asks him on a date.
+
+While walking Rize home, Kaneki discovers she isn't as kind as she first appeared, and she has led him on with sinister intent. After a tragic struggle, he later awakens in a hospital to learn his life was saved by transplanting the now deceased Rize's organs into his own body.
+
+Kaneki's body begins to change in horrifying ways, and he transforms into a human-ghoul hybrid. As he embarks on his new dreadful journey, Kaneki clings to his humanity in the evolving bloody conflict between society's new monsters and the government agents who hunt them.
+  </p>
+</div>
+<div class="step1">
+  <h1>Demon Slayer</h1>
+  <img src="shonrn9.webp">
+  <p>
+    Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's shoulders. Though living impoverished on a remote mountain, the Kamado family are able to enjoy a relatively peaceful and happy life. One day, Tanjirou decides to go down to the local village to make a little money selling charcoal. On his way back, night falls, forcing Tanjirou to take shelter in the house of a strange man, who warns him of the existence of flesh-eating demons that lurk in the woods at night.
+
+When he finally arrives back home the next day, he is met with a horrifying sight—his whole family has been slaughtered. Worse still, the sole survivor is his sister Nezuko, who has been turned into a bloodthirsty demon. Consumed by rage and hatred, Tanjirou swears to avenge his family and stay by his only remaining sibling. Alongside the mysterious group calling themselves the Demon Slayer Corps, Tanjirou will do whatever it takes to slay the demons and protect the remnants of his beloved sister's humanity.
+  </p>
+</div>
+<div class="step2">
+  <h1>Gintama</h1>
+  <img src="shonen10.webp">
+  <p>
+    Edo is a city that was home to the vigor and ambition of samurai across the country. However, following feudal Japan's surrender to powerful aliens known as the "Amanto," those aspirations now seem unachievable. With the once-influential shogunate rebuilt as a puppet government, a new law is passed that promptly prohibits all swords in public.
+
+Enter Gintoki Sakata, an eccentric silver-haired man who always carries around a wooden sword and maintains his stature as a samurai despite the ban. As the founder of Yorozuya, a small business for odd jobs, Gintoki often embarks on endeavors to help other people—though usually in rather strange and unforeseen ways.
+
+Assisted by Shinpachi Shimura, a boy with glasses supposedly learning the way of the samurai; Kagura, a tomboyish girl with superhuman strength and an endless appetite; and Sadaharu, their giant pet dog who loves biting on people's heads, the Yorozuya encounter anything from alien royalty to scuffles with local gangs in the ever-changing world of Edo
+  </p>
+</div>
+<div class="step2">
+  <h1>Noragami</h1>
+  <img src="shonen11.webp">
+  <p>
+    In times of need, if you look in the right place, you just may see a strange telephone number scrawled in red. If you call this number, you will hear a young man introduce himself as the Yato God.
+
+Yato is a minor deity and a self-proclaimed "Delivery God," who dreams of having millions of worshippers. Without a single shrine dedicated to his name, however, his goals are far from being realized. He spends his days doing odd jobs for five yen apiece, until his weapon partner becomes fed up with her useless master and deserts him.
+
+Just as things seem to be looking grim for the god, his fortune changes when a middle school girl, Hiyori Iki, supposedly saves Yato from a car accident, taking the hit for him. Remarkably, she survives, but the event has caused her soul to become loose and hence able to leave her body. Hiyori demands that Yato return her to normal, but upon learning that he needs a new partner to do so, reluctantly agrees to help him find one. And with Hiyori's help, Yato's luck may finally be turning around
+  </p>
+</div>
+<div class="step2">
+  <h1>My Hero Academia</h1>
+  <img src="shonen12.webp">
+  <p>
+    he appearance of "quirks," newly discovered super powers, has been steadily increasing over the years, with 80 percent of humanity possessing various abilities from manipulation of elements to shapeshifting. This leaves the remainder of the world completely powerless, and Izuku Midoriya is one such individual.
+
+Since he was a child, the ambitious middle schooler has wanted nothing more than to be a hero. Izuku's unfair fate leaves him admiring heroes and taking notes on them whenever he can. But it seems that his persistence has borne some fruit: Izuku meets the number one hero and his personal idol, All Might. All Might's quirk is a unique ability that can be inherited, and he has chosen Izuku to be his successor!
+
+Enduring many months of grueling training, Izuku enrolls in UA High, a prestigious high school famous for its excellent hero training program, and this year's freshmen look especially promising. With his bizarre but talented classmates and the looming threat of a villainous organization, Izuku will soon learn what it really means to be a hero.
+  </p>
+</div>
+  </div>
+<div class="shonen" id="Shoujo"><!--this is a flex divisioin containing contents which displayes information and images--><!--this continues for all the upcoming "id's" them being linked to the drop-down -->
+  <h1 style="color:white;">Shoujo</h1><!--the only difference being the change in "id" even the css properties of sub divisions are same-->
+  <div class="step1">
+    <h1>Your Lie in April</h1>
+    <img src="shojo1.webp">
+    <p>
+      Kousei Arima is a child prodigy known as the "Human Metronome" for playing the piano with precision and perfection. Guided by a strict mother and rigorous training, Kousei dominates every competition he enters, earning the admiration of his musical peers and praise from audiences. When his mother suddenly passes away, the subsequent trauma makes him unable to hear the sound of a piano, and he never takes the stage thereafter.
+
+      Nowadays, Kousei lives a quiet and unassuming life as a junior high school student alongside his friends Tsubaki Sawabe and Ryouta Watari. While struggling to get over his mother's death, he continues to cling to music. His monochrome life turns upside down the day he encounters the eccentric violinist Kaori Miyazono, who thrusts him back into the spotlight as her accompanist. Through a little lie, these two young musicians grow closer together as Kaori tries to fill Kousei's world with color
+    </p>
+  </div>
+  <div class="step1">
+    <h1>Oregairu</h1>
+    <img src="shojo2.webp">
+    <p>
+      Hachiman Hikigaya is an apathetic high school student with narcissistic and semi-nihilistic tendencies. He firmly believes that joyful youth is nothing but a farce, and everyone who says otherwise is just lying to themselves.
+
+In a novel punishment for writing an essay mocking modern social relationships, Hachiman's teacher forces him to join the Volunteer Service Club, a club that aims to extend a helping hand to any student who seeks their support in achieving their goals. With the only other club member being the beautiful ice queen Yukino Yukinoshita, Hachiman finds himself on the front line of other people's problems—a place he never dreamed he would be. As Hachiman and Yukino use their wits to solve many students' problems, will Hachiman's rotten view of society prove to be a hindrance or a tool he can use to his advantage?
+    </p>
+  </div>
+  <div class="step1">
+    <h1>Clannad</h1>
+    <img src="shojo3.webp">
+    <p>
+      omoya Okazaki is a delinquent who finds life dull and believes he'll never amount to anything. Along with his friend Youhei Sunohara, he skips school and plans to waste his high school days away.
+
+One day while walking to school, Tomoya passes a young girl muttering quietly to herself. Without warning she exclaims "Anpan!" (a popular Japanese food) which catches Tomoya's attention. He soon discovers the girl's name is Nagisa Furukawa and that she exclaims things she likes in order to motivate herself. Nagisa claims they are now friends, but Tomoya walks away passing the encounter off as nothing.
+
+However, Tomoya finds he is noticing Nagisa more and more around school. Eventually he concedes and befriends her. Tomoya learns Nagisa has been held back a year due to a severe illness and that her dream is to revive the school's drama club. Claiming he has nothing better to do, he decides to help her achieve this goal along with the help of four other girls.
+
+As Tomoya spends more time with the girls, he learns more about them and their problems. As he attempts to help each girl overcome her respective obstacle, he begins to realize life isn't as dull as he once thought
+    </p>
+  </div>
+  <div class="step1">
+    <h1>Horimiya</h1>
+    <img src="shojo4.webp">
+    <p>
+      On the surface, the thought of Kyouko Hori and Izumi Miyamura getting along would be the last thing in people's minds. After all, Hori has a perfect combination of beauty and brains, while Miyamura appears meek and distant to his fellow classmates. However, a fateful meeting between the two lays both of their hidden selves bare. Even though she is popular at school, Hori has little time to socialize with her friends due to housework. On the other hand, Miyamura lives under the noses of his peers, his body bearing secret tattoos and piercings that make him look like a gentle delinquent.
+
+Having opposite personalities yet sharing odd similarities, the two quickly become friends and often spend time together in Hori's home. As they both emerge from their shells, they share with each other a side of themselves concealed from the outside world.
+    </p>
+  </div>
+<div class="step1">
+  <h1>Pet Girl At Sakura Dorm</h1>
+  <img src="shojo5.webp">
+  <p>
+    At Suimei High, the Sakura-sou dormitory is infamous for housing the school's most notorious delinquents. Thus, when the relatively tame Sorata Kanda is transferred to the dorm, escaping this insane asylum becomes his foremost goal. Trapped there for the time being, he must learn how to deal with his fellow residents, including bubbly animator Misaki Kamiigusa, charming playboy writer Jin Mitaka, and the ever-reclusive Ryuunosuke Akasaka. Surrounded by weirdness, Sorata frequently finds respite in his interactions with his one "normal" friend, aspiring voice actress Nanami Aoyama.
+
+When Mashiro Shiina—a new foreign exchange student—joins the dormitory, Sorata is instantly enraptured by her beauty. Underneath her otherworldly appearance, Mashiro is an autistic savant, capable of world-renowned brilliance in her art, yet unable to perform simple daily tasks. After Sorata ends up in charge of taking care of Mashiro, the two inevitably grow closer, with Sorata's initial desire to escape the dormitory becoming a forgotten goal.
+
+Despite their eccentricities, every resident is incredible in their own field, leaving Sorata to contend with his own lack of any particular skill. With brilliance all around him, he thus strives to become an equal to their talent. Revolving around the hardships and joys of its colorful cast, Sakura-sou no Pet na Kanojo is a heartwarming coming-of-age tale of friendship, love, ambition, and heartbreak—through the lens of an ordinary person surrounded by the extraordinary
+  </p>
+</div>
+<div class="step1">
+  <h1>Kichou wa Maid-sama</h1>
+  <img src="shojo6.webp">
+  <p>
+    Misaki Ayuzawa is a unique phenomenon within Seika High School. In a predominantly male institution, she became the first-ever female student council president through her honesty and diligence. Ever since Misaki got promoted to the position, she has been working tirelessly to ensure a better school life for all girls. Despite that, Misaki is very strict with the boys, which has earned her the title "Demon President."
+
+One day, after hearing a girl cry in the hallway, Misaki encounters Takumi Usui—the most popular boy in the school—as he rejects a love confession. Enraged at what she is seeing, Misaki reprimands him for making the girl cry. However, Usui is indifferent and brushes it off as nothing.
+
+Unexpectedly, Misaki soon runs into Usui again, but this time when she is working at a maid cafe! Embarrassed that someone has found out about her secret occupation, Misaki promises herself not to let Usui destroy her reputation. However, the mysterious boy now begins to visit the same cafe regularly to observe and tease Misaki. When push comes to shove, will Usui still be able to keep the president's secret?
+  </p>
+</div>
+<div class="step1">
+  <h1>My little Monster</h1>
+  <img src="shojo7">
+  <p>
+    Shizuku Mizutani is apathetic toward her classmates, only caring about her grades. However, her cold view of life begins to change when she meets Haru Yoshida, a violent troublemaker who stopped attending class after getting into a fight early in the school year. He is not much different from her, though—he too understands little about human nature and does not have any friends. Much to Shizuku's surprise, he proclaims that she will be his friend and immediately confesses his feelings toward her upon meeting her.
+
+Because of her lack of friends and social interaction, Shizuku has a hard time understanding her relationship with Haru. But slowly, their friendship begins to progress, and she discovers that there is more to Haru than violence. She begins to develop feelings for him, but is unsure what kind of emotions she is experiencing. Together, Shizuku and Haru explore the true nature of their relationship and emotions
+  </p>
+</div>
+<div class="step1">
+  <h1>My dress up darling</h1>
+  <img src="shojo8.webp">
+  <p>
+    High school student Wakana Gojou spends his days perfecting the art of making hina dolls, hoping to eventually reach his grandfather's level of expertise. While his fellow teenagers busy themselves with pop culture, Gojou finds bliss in sewing clothes for his dolls. Nonetheless, he goes to great lengths to keep his unique hobby a secret, as he believes that he would be ridiculed were it revealed.
+
+Enter Marin Kitagawa, an extraordinarily pretty girl whose confidence and poise are in stark contrast to Gojou's meekness. It would defy common sense for the friendless Gojou to mix with the likes of Kitagawa, who is always surrounded by her peers. However, the unimaginable happens when Kitagawa discovers Gojou's prowess with a sewing machine and brightly confesses to him about her own hobby: cosplay. Because her sewing skills are pitiable, she decides to enlist his help.
+
+As Gojou and Kitagawa work together on one cosplay outfit after another, they cannot help but grow close—even though their lives are worlds apart.
+  </p>
+</div>
+<div class="step1">
+  <h1>
+    i wanna eat your pancreas
+  </h1>
+  <img src="shojo9.webp">
+  <p>
+    The aloof protagonist: a bookworm who is deeply detached from the world he resides in. He has no interest in others and is firmly convinced that nobody has any interest in him either. His story begins when he stumbles across a handwritten book, titled Living with Dying. He soon identifies it as a secret diary belonging to his popular, bubbly classmate Sakura Yamauchi. She then confides in him about the pancreatic disease she is suffering from and that her time left is finite. Only her family knows about her terminal illness; not even her best friends are aware. Despite this revelation, he shows zero sympathy for her plight, but caught in the waves of Sakura's persistent buoyancy, he eventually concedes to accompanying her for her remaining days.
+
+As the pair of polar opposites interact, their connection strengthens, interweaving through their choices made with each passing day. Her apparent nonchalance and unpredictability disrupts the protagonist's impassive flow of life, gradually opening his heart as he discovers and embraces the true meaning of living
+  </p>
+</div>
+<div class="step1">
+  <h1>Kaguya-sama</h1>
+  <img src="shojo10.webp">
+  <p>
+    The elite members of Shuchiin Academy's student council continue their competitive day-to-day antics. Council president Miyuki Shirogane clashes daily against vice-president Kaguya Shinomiya, each fighting tooth and nail to trick the other into confessing their romantic love. Kaguya struggles within the strict confines of her wealthy, uptight family, rebelling against her cold default demeanor as she warms to Shirogane and the rest of her friends.
+
+Meanwhile, council treasurer Yuu Ishigami suffers under the weight of his hopeless crush on Tsubame Koyasu, a popular upperclassman who helps to instill a new confidence in him. Miko Iino, the newest student council member, grows closer to the rule-breaking Ishigami while striving to overcome her own authoritarian moral code.
+
+As love further blooms at Shuchiin Academy, the student council officers drag their outsider friends into increasingly comedic conflicts.
+  </p>
+</div>
+<div class="step1">
+  <h1>Fruits Basket</h1>
+  <img src="shojo11.webp">
+  <p>
+    Tooru Honda has always been fascinated by the story of the Chinese Zodiac that her beloved mother told her as a child. However, a sudden family tragedy changes her life, and subsequent circumstances leave her all alone. Tooru is now forced to live in a tent, but little does she know that her temporary home resides on the private property of the esteemed Souma family. Stumbling upon their home one day, she encounters Shigure, an older Souma cousin, and Yuki, the "prince" of her school. Tooru explains that she lives nearby, but the Soumas eventually discover her well-kept secret of being homeless when they see her walking back to her tent one night.
+
+Things start to look up for Tooru as they kindly offer to take her in after hearing about her situation. But soon after, she is caught up in a fight between Yuki and his hot-tempered cousin, Kyou. While trying to stop them, she learns that the Souma family has a well-kept secret of their own: whenever they are hugged by a member of the opposite sex, they transform into the animals of the Chinese Zodiac.
+
+With this new revelation, Tooru will find that living with the Soumas is an unexpected adventure filled with laughter and romance
+  </p>
+</div>
+<div class="step1">
+  <h1>Fly me to moon</h1>
+  <img src="shojo12.webp">
+  <p>
+    Nasa Yuzaki is determined to leave his name in the history books. Ranking first in the national mock exam and aiming for a distinguished high school, he is certain that he has his whole life mapped out. However, fate is a fickle mistress. On his way home one snowy evening, Nasa's eyes fall upon a peerless beauty across the street. Bewitched, Nasa tries to approach her—only to get blindsided by an oncoming truck.
+
+Thankfully, his life is spared due to the girl's swift action. Bleeding by the side of an ambulance, he watches as the girl walks away under the moonlight—reminiscent of Princess Kaguya leaving for the moon. Refusing to let this chance meeting end, he forces his crippled body to chase after her and asks her out. Surprised by his foolhardiness and pure resolve, the girl accepts his confession under a single condition: they can only be together if he marries her!
+  </p>
+</div>
+</div>
+<div class="shonen" id="SOL">
+  <h1 style="color:white;">Slice of Life</h1>
+  <div class="step1">
+    <h1 >Hyouka</h1>
+    <img src="sol1.webp">
+    <p>
+      High school freshman Houtarou Oreki has but one goal: to lead a gray life while conserving as much energy as he can. Unfortunately, his peaceful days come to an end when his older sister, Tomoe, forces him to save the memberless Classics Club from disbandment.
+
+      Luckily, Oreki's predicament seems to be over when he heads to the clubroom and discovers that his fellow first-year, Eru Chitanda, has already become a member. However, despite his obligation being fulfilled, Oreki finds himself entangled by Chitanda's curious and bubbly personality, soon joining the club of his own volition.
+      
+      Hyouka follows the four members of the Classics Club—including Oreki's friends Satoshi Fukube and Mayaka Ibara—as they, driven by Chitanda's insatiable curiosity, solve the trivial yet intriguing mysteries that permeate their daily lives.
+    </p>
+  </div>
+  <div class="step1">
+    <h1>Kobayashi's Dragon Maid</h1>
+    <img src="sol2.webp">
+<p>
+  As Kobayashi sets off for another day at work, she opens her apartment door only to be met by an unusually frightening sight—the head of a dragon, staring at her from across the balcony. The dragon immediately transforms into a cute, busty, and energetic young girl dressed in a maid outfit, introducing herself as Tooru.
+
+  It turns out that the stoic programmer had come across the dragon the previous night on a drunken excursion to the mountains, and since the mythical beast had nowhere else to go, she had offered the creature a place to stay in her home. Thus, Tooru had arrived to cash in on the offer, ready to repay her savior's kindness by working as her personal maidservant. Though deeply regretful of her words and hesitant to follow through on her promise, a mix of guilt and Tooru's incredible dragon abilities convinces Kobayashi to take the girl in.
+  
+  Despite being extremely efficient at her job, the maid's unorthodox methods of housekeeping often end up horrifying Kobayashi and at times bring more trouble than help. Furthermore, the circumstances behind the dragon's arrival on Earth seem to be much more complicated than at first glance, as Tooru bears some heavy emotions and painful memories. To top it all off, Tooru's presence ends up attracting several other mythical beings to her new home, bringing in a host of eccentric personalities. Although Kobayashi makes her best effort to handle the crazy situation that she has found herself in, nothing has prepared her for this new life with a dragon maid
+</p>
+  </div>
+  <div class="step1">
+    <h1>Barakamon</h1>
+    <img src="sol3.webp">
+    <p>
+      Seishuu Handa is an up-and-coming calligrapher: young, handsome, talented, and unfortunately, a narcissist to boot. When a veteran labels his award-winning piece as "unoriginal," Seishuu quickly loses his cool with severe repercussions.
+
+      As punishment, and also in order to aid him in self-reflection, Seishuu's father exiles him to the Goto Islands, far from the comfortable Tokyo lifestyle the temperamental artist is used to. Now thrown into a rural setting, Seishuu must attempt to find new inspiration and develop his own unique art style—that is, if boisterous children (headed by the frisky Naru Kotoishi), fujoshi middle schoolers, and energetic old men stop barging into his house! The newest addition to the intimate and quirky Goto community only wants to get some work done, but the islands are far from the peaceful countryside he signed up for. Thanks to his wacky neighbors who are entirely incapable of minding their own business, the arrogant calligrapher learns so much more than he ever hoped to
+    </p>
+    </div>
+    <div class="step1">
+      <h1>Natsume Yujincho</h1>
+      <img src="sol4.webp">
+      <p>
+        Due to an unusual ability to see strange creatures called youkai, Takashi Natsume has never fit in. Passed around from one foster home to another, he was left isolated and lonely. Over time, he has accepted that no one would ever believe him and has closed himself off to his current caretakers and classmates.
+
+        When Natsume accidentally breaks an intangible barrier, he frees Madara—a mighty spirit in the form of a lucky cat. Madara notices that Natsume bears a remarkable resemblance to his late grandmother Reiko Natsume, an outcast girl who became known across the youkai world for creating the Book of Friends. It is now in Natsume's possession, along with its power to call upon the written names of the youkai Reiko had defeated.
+        
+        With no interest in its powers, Natsume decides to keep the book for the sake of his grandmother's memories and to protect it from scheming youkai. Therefore, he makes a deal with Madara: he will hand him the book once his time is up, and in turn, Madara will act as Natsume's unofficial bodyguard, nicknamed Nyanko-sensei. With his newfound goal of freeing those Reiko had sealed, Natsume's relationship with both youkai and humans slowly begins to improve.
+      </p>
+      </div>
+      <div class="step1">
+        <h1>Tamako Market</h1>
+        <img src="sol5.webp">
+        <p>
+          nside the Usagiyama Shopping District lies an eccentric but close-knit community of business owners. Tamako Kitashirakawa, a clumsy though adorable teenage girl, belongs to a family of mochi bakers who own a quaint shop called Tama-ya. One day, Tamako stumbles upon a talking bird that presents himself as royalty from a distant land. Dera Mochimazzi, as he calls himself, states that he’s seeking a bride for his country’s prince. Intent on his mission, Dera follows Tamako home and develops an addiction to mochi, becoming painfully overweight and subsequently unable to fly back to his homeland; thus, he takes up residence with Tamako's family and becomes the community’s beloved mascot.
+
+          Meanwhile, Tamako's friend, Mochizou Ooji, continues to hide his true feelings for her. Their fathers are fierce mochi rivals, but will it be enough to drive a wedge between Tamako and Mochizou? And just what will happen to Dera's task of finding his prince’s destined bride?
+        </p>
+        </div>
+        <div class="step1">
+          <h1>Acchi Kocchi</h1>
+          <img src="sol6.webp">
+          <p>
+            Feelings may come and go, but true love always remains in the heart. Tsumiki Miniwa is in love with her best friend, Io Otonashi. For her, confessing is nearly impossible; but to her friends, they seem to be the perfect match. Cute and petite, Tsumiki comes off more as a friend, and Io's attitude toward her is friendlier than toward others. Despite the constant teasing and obvious hints that his friends have been dropping, Io always seems to miss the signs.
+
+            Throughout her everyday school life, Tsumiki spends time with her friends and Io. Will she finally muster enough courage to confess her true feelings?
+          </p>
+          </div>
+          <div class="step1">
+            <h1>K-on</h1>
+            <img src="sol7.webp">
+            <p>
+              It is the new year, which means that the senior members of the Light Music Club are now third-years, with Azusa Nakano being the only second-year. The seniors soon realize that Azusa will be the only member left once they graduate and decide to recruit new members. Despite trying many methods of attracting underclassmen—handing out fliers, bringing people into the clubroom, and performing at the welcoming ceremony—there are no signs of anyone that plans to join.
+
+              While heading to the clubroom, Azusa overhears Yui Hirasawa say that the club is fine with only five people and that they can do many fun things together. Changing her mind, she decides that they do not need to recruit any members for the time being.
+              
+              K-On!! revolves around the members of the Light Music Club as they experience their daily high school life. From rehearsing for concerts to just messing around, they are ready to make their last year together an exciting one
+            </p>
+            </div>
+            <div class="step1">
+              <h1>Mushi-shi</h1>
+              <img src="sol8.webp">
+              <p>
+                "Mushi": the most basic forms of life in the world. They exist without any goals or purposes aside from simply "being." They are beyond the shackles of the words "good" and "evil." Mushi can exist in countless forms and are capable of mimicking things from the natural world such as plants, diseases, and even phenomena like rainbows.
+
+                This is, however, just a vague definition of these entities that inhabit the vibrant world of Mushishi, as to even call them a form of life would be an oversimplification. Detailed information on Mushi is scarce because the majority of humans are unaware of their existence.
+                
+                So what are Mushi and why do they exist? This is the question that a "Mushishi," Ginko, ponders constantly. Mushishi are those who research Mushi in hopes of understanding their place in the world's hierarchy of life.
+                
+                Ginko chases rumors of occurrences that could be tied to Mushi, all for the sake of finding an answer
+              </p>
+              </div>
+              <div class="step1">
+                <h1>Tanaka wants to rest</h1>
+                <img src="sol9.webp">
+                <p>
+                  For high school student Tanaka, the act of being listless is a way of life. Known for his inattentiveness and ability to fall asleep anywhere, Tanaka prays that each day will be as uneventful as the last, seeking to preserve his lazy lifestyle however he can by avoiding situations that require him to exert himself. Along with his dependable friend Oota who helps him with tasks he is unable to accomplish, the lethargic teenager constantly deals with events that prevent him from experiencing the quiet and peaceful days he longs for.
+
+                </p>
+                </div>
+                <div class="step1">
+                  <h1>Gakugen Babysitter</h1>
+                  <img src="sol10.webp">
+                  <p>
+                    After losing both parents in a fatal plane crash, teenager Ryuuichi Kashima must adjust to his new life as the guardian of his younger brother Kotarou. Although Ryuuichi is able to maintain a friendly and kindhearted demeanor, Kotarou is a reserved toddler still too young to understand the reality of the situation. At their parents' funeral, they are approached by Youko Morinomiya, the stern chairman of an elite academy, who decides to take them under her care.
+
+                    However, there is one condition Ryuuichi must fulfill in exchange for a roof over their heads and enrolment in the school—he must become the school's babysitter. In an effort to support the female teachers at the academy, a babysitter's club was established to look after their infant children; unfortunately, the club is severely short-staffed, so now not only is Ryuuichi responsible for his little brother, but also a handful of toddlers who possess dynamic personalities.
+                  </p>
+                  </div>
+                  <div class="step1">
+                    <h1>One week friends</h1>
+                    <img src="sol11.webp">
+                    <p>
+                      Sixteen-year-old Yuuki Hase finally finds the courage to speak to his crush and ask her if she wants to become friends. The object of his affection, Kaori Fujimiya, is a quiet and reserved girl who cuts herself off from everyone and does not spare him the same blunt rejection she gives everybody else.
+
+                      Some time after, Yuuki finds her eating lunch on the roof where she secludes herself during break. He decides to start meeting with Kaori every day in the hopes of beginning to understand her better. The more time they spend together, the more she begins to open up to him. However, nearing the end of the week, she starts to push him away once more. It is then revealed to him the reason for Kaori's cold front: at the end of the week, her memories of those close to her, excluding her family, are forgotten, as they are reset every Monday. The result of an accident in middle school, the once popular and kind Kaori is now unable to make friends in fear of hurting the people dear to her.
+                      
+                      Determined to become more than just one week friends, Yuuki asks her the exact same question each Monday: "Would you like to be friends?" Because he knows that deep down, Kaori wishes for that more than anything.
+                    </p>
+                    </div>
+                    <div class="step1">
+                      <h1>Non non byori</h1>
+                      <img src="sol12.webp">
+                      <p>
+                        Hotaru Ichijou's lifestyle completely changes when she leaves Tokyo and moves with her family to the isolated Asahigaoka village. Her new school has only five students including herself, all sharing a single classroom regardless of grade level. There are no convenience stores in the area, and it can take up to two hours for a bus to arrive.
+
+                        Nevertheless, Hotaru finds herself captivated by the countryside's charm thanks to her four unique schoolmates with whom she quickly forms a genuine bond. The most colorful of them is Renge Miyauchi, a first-grader who is often perceptive despite her age. However, no less intriguing are the three Koshigaya siblings: the quiet oldest brother Suguru, the petite older sister Komari, and the prankish youngest sister Natsumi.
+                        
+                        Having someone from the city join their cheerful little group enlivens the ordinary days in Asahigaoka. Not only does Hotaru bring firsthand knowledge from the alluring outside world, but her fresh outlook on life welcomes a blossom of change to their usual routine.
+                      </p>
+                      </div>
+</div>
+<div class="shonen" id="drama">
+  <h1 style="color:white;">Drama</h1>
+  <div class="step1">
+    <h1>Re-zero</h1>
+    <img src="drama1.webp">
+    <p>
+      When Subaru Natsuki leaves the convenience store, the last thing he expects is to be wrenched from his everyday life and dropped into a fantasy world. Things are not looking good for the bewildered teenager; however, not long after his arrival, he is attacked by some thugs. Armed with only a bag of groceries and a now useless cell phone, he is quickly beaten to a pulp. Fortunately, a mysterious beauty named Satella, in hot pursuit after the one who stole her insignia, happens upon Subaru and saves him. In order to thank the honest and kindhearted girl, Subaru offers to help in her search, and later that night, he even finds the whereabouts of that which she seeks. But unbeknownst to them, a much darker force stalks the pair from the shadows, and just minutes after locating the insignia, Subaru and Satella are brutally murdered.
+
+      However, Subaru immediately reawakens to a familiar scene—confronted by the same group of thugs, meeting Satella all over again—the enigma deepens as history inexplicably repeats itself
+    </p>
+    </div>
+    <div class="step1">
+      <h1>Violet Evergarden</h1>
+      <img src="drama2.webp">
+      <p>
+        The Great War finally came to an end after four long years of conflict; fractured in two, the continent of Telesis slowly began to flourish once again. Caught up in the bloodshed was Violet Evergarden, a young girl raised for the sole purpose of decimating enemy lines. Hospitalized and maimed in a bloody skirmish during the War's final leg, she was left with only words from the person she held dearest, but with no understanding of their meaning.
+
+        Recovering from her wounds, Violet starts a new life working at CH Postal Services after a falling out with her new intended guardian family. There, she witnesses by pure chance the work of an "Auto Memory Doll," amanuenses that transcribe people's thoughts and feelings into words on paper. Moved by the notion, Violet begins work as an Auto Memory Doll, a trade that will take her on an adventure, one that will reshape the lives of her clients and hopefully lead to self-discovery.
+      </p>
+      </div>
+      <div class="step1">
+        <h1>Classroom of the elite</h1>
+        <img src="drama3.webp">
+        <p>
+          Receiving funding from the government to nurture the next generation's hopefuls, Tokyo Metropolitan Advanced Nurturing High School brings together the brightest youth of Japan onto a single campus. At this seemingly perfect institution, the reserved Kiyotaka Ayanokouji arrives as an incoming member of class 1-D, where he befriends one of his classmates, the antisocial Suzune Horikita.
+
+          At first, his peers revel in the academy's leisurely lifestyle, taking advantage of all of its state-of-the-art facilities. Soon enough, however, the facade of Tokyo Metropolitan Advanced Nurturing High School gives way to its true nature—only the top scoring classes can fully utilize the school's offerings, and Class D is the furthest from such a status. Standing at the bottom of the hierarchy, Class D houses all of the school's "worst" students.
+          
+          Following this rude awakening, Ayanokouji, Horikita, and the rest of Class D must overcome their differences and clash against other classes in order to climb to the coveted position of Class A by any means necessary
+        </p>
+        </div>
+        <div class="step1">
+          <h1>To Eternity</h1>
+          <img src="drama4.webp">
+          <p>
+            An Orb, known only as It, is cast to Earth to be observed from afar. Capable of changing forms from beings whose reflections It captures, It first becomes a rock and then, due to the rising temperature, moss.
+
+            It does not move until one snowy day, a wolf at death's door barely crosses by. When It takes the animal's form, It attains awareness of its consciousness and starts to wander with an unclear destination in mind. Soon, It comes across the wolf's master—a young boy waiting for his tribe to return from a paradise abundant with fish and fruit in the south. Although the boy is lonely, he still hopes those whom he holds dear in his memories have not forgotten him and that he will reunite with them one day.
+            
+            The boy wants to explore new surroundings and decides to abandon his home with It to find the paradise using the traces his tribe left behind. However, with a heavily injured body and no sight of his elder comrades, what will become of the boy?
+            
+            Fumetsu no Anata e illustrates the story of an immortal being experiencing humanity, meeting all types of people in many places throughout time.
+          </p>
+          </div>
+          <div class="step1">
+            <h1>86</h1>
+            <img src="drama5.webp">
+            <p>
+              According to the Republic of San Magnolia, their ongoing war against the Giadian Empire has no casualties—however, that is mere propaganda. While the silver-haired Alba of the Republic's eighty-five sectors live safely behind protective walls, those of different appearances are interned in a secret eighty-sixth faction. Known within the military as the Eighty-Six, they are forced to fight against the Empire's autonomous Legion under the command of the Republican "Handlers."
+
+              Vladilena Milizé is assigned to the Spearhead squadron to replace their previous Handler. Shunned by her peers for being a fellow Eighty-Six supporter, she continues to fight against their inhumane discrimination. Shinei Nouzen is the captain of the Spearhead squadron. Infamous for being the sole survivor of every squadron he's been in, he insists on shouldering the names and wishes of his fallen comrades. When the fates of these young souls from two different worlds collide, will it ignite the spark that lights their path to salvation, or will they burn themselves in the flames of despair?
+            </p>
+            </div>
+            <div class="step1">
+              <h1>Steins Gate</h1>
+              <img src="drama6.webp">
+              <p>
+                Eccentric scientist Rintarou Okabe has a never-ending thirst for scientific exploration. Together with his ditzy but well-meaning friend Mayuri Shiina and his roommate Itaru Hashida, Rintarou founds the Future Gadget Laboratory in the hopes of creating technological innovations that baffle the human psyche. Despite claims of grandeur, the only notable "gadget" the trio have created is a microwave that has the mystifying power to turn bananas into green goo.
+
+                However, when Rintarou decides to attend neuroscientist Kurisu Makise's conference on time travel, he experiences a series of strange events that lead him to believe that there is more to the "Phone Microwave" gadget than meets the eye. Apparently able to send text messages into the past using the microwave, Rintarou dabbles further with the "time machine," attracting the ire and attention of the mysterious organization SERN.
+                
+                Due to the novel discovery, Rintarou and his friends find themselves in an ever-present danger. As he works to mitigate the damage his invention has caused to the timeline, he is not only fighting a battle to save his loved ones, but also one against his degrading sanity
+              </p>
+              </div>
+              <div class="step1">
+                <h1>Oshi no koi</h1>
+                <img src="drama7.webp">
+                <p>
+                  In the entertainment world, celebrities often show exaggerated versions of themselves to the public, concealing their true thoughts and struggles beneath elaborate lies. Fans buy into these fabrications, showering their idols with undying love and support, until something breaks the illusion. Sixteen-year-old rising star Ai Hoshino of pop idol group B Komachi has the world captivated; however, when she announces a hiatus due to health concerns, the news causes many to become worried.
+
+                  As a huge fan of Ai, gynecologist Gorou Amemiya cheers her on from his countryside medical practice, wishing he could meet her in person one day. His wish comes true when Ai shows up at his hospital—not sick, but pregnant with twins! While the doctor promises Ai to safely deliver her children, he wonders if this encounter with the idol will forever change the nature of his relationship with her.
+                </p>
+                </div>
+                <div class="step1">
+                  <h1>Vinland Saga</h1>
+                  <img src="drama8.webp">
+                  <p>
+                    oung Thorfinn grew up listening to the stories of old sailors that had traveled the ocean and reached the place of legend, Vinland. It's said to be warm and fertile, a place where there would be no need for fighting—not at all like the frozen village in Iceland where he was born, and certainly not like his current life as a mercenary. War is his home now. Though his father once told him, "You have no enemies, nobody does. There is nobody who it's okay to hurt," as he grew, Thorfinn knew that nothing was further from the truth.
+
+                    The war between England and the Danes grows worse with each passing year. Death has become commonplace, and the viking mercenaries are loving every moment of it. Allying with either side will cause a massive swing in the balance of power, and the vikings are happy to make names for themselves and take any spoils they earn along the way. Among the chaos, Thorfinn must take his revenge and kill Askeladd, the man who murdered his father. The only paradise for the vikings, it seems, is the era of war and death that rages on
+                  </p>
+                  </div>
+                  <div class="step1">
+                    <h1>Blue Period</h1>
+                    <img src="drama9.webp">
+                    <p>
+                      Second-year high school student Yatora Yaguchi is a delinquent with excellent grades, but is unmotivated to find his true calling in life. Yatora spends his days working hard to maintain his academic standing while hanging out with his equally unambitious friends. However, beneath his carefree demeanor, Yatora does not enjoy either activity and wishes he could find something more fulfilling.
+
+                      While mulling over his predicament, Yatora finds himself staring at a vibrant landscape of Shibuya. Unable to express how he feels about the unusually breathtaking sight, he picks up a paintbrush, hoping his thoughts will be conveyed on canvas. After receiving praise for his work, the joy he feels sends him on a journey to enter the extremely competitive Tokyo University of the Arts—a school that only accepts one in every two hundred applicants.
+                      
+                      Facing talented peers, a lack of understanding of the fine arts, and struggles to obtain his parents’ approval, Yatora is confronted by much adversity. In the hopes of securing one of the five prestigious spots in his program of choice, Yatora must show that his inexperience does not define him.
+                      
+                    </p>
+                    </div>
+                    <div class="step1">
+                      <h1>Made in AByss</h1>
+                      <img src="drama10.webp">
+                      <p>
+                        The Abyss, a hole of unprecedented depth—one young girl and a robot brave its dangers to find the truth.
+
+                        The town of Orth is a special one, as it is built around the edges of the massive Abyss, a wonder which has never been fully explored. Those who venture too far down never return, but those brave enough to traverse its territories are known as "Cave Raiders" and are heralded as legends. Within this town lives a young girl called Riko, the child of one of the most famous Cave Raiders of all time who disappeared on an expedition many years ago.
+                        
+                        One day, Riko's life changes when she meets a strange robot called Reg, who seems to appear from within the Abyss. Believing this to be a sign from her mother stuck at the bottom of the Abyss, Riko descends into its depths with Reg, ready to confront all the dangers within it
+                      </p>
+                      </div>
+                      <div class="step1">
+                        <h1>91days</h1>
+                        <img src="drama11.webp">
+                        <p>
+                          As a child living in the town of Lawless, Angelo Lagusa has witnessed a tragedy: his parents and younger brother have been mercilessly slaughtered by the Vanetti mafia family. Losing everything he holds dear, he leaves both his name and hometown behind, adopting the new identity of Avilio Bruno.
+
+                          Seven years later, Avilio finally has his chance for revenge when he receives a mysterious letter prompting him to return to Lawless. Obliging, he soon encounters the Vanetti don's son, Nero, and seeks to befriend him using the skills he has quietly honed for years.
+                          
+                          Set during the Prohibition era, 91 Days tells the story of Avilio's dark, bloodstained path to vengeance, as he slowly ends each of the men involved in the killing of his family.
+                        </p>
+                        </div>
+                        <div class="step1">
+                          <h1>A Silent Voice</h1>
+                          <img src="drama12.webp">
+                          <p>
+                            s a wild youth, elementary school student Shouya Ishida sought to beat boredom in the cruelest ways. When the deaf Shouko Nishimiya transfers into his class, Shouya and the rest of his class thoughtlessly bully her for fun. However, when her mother notifies the school, he is singled out and blamed for everything done to her. With Shouko transferring out of the school, Shouya is left at the mercy of his classmates. He is heartlessly ostracized all throughout elementary and middle school, while teachers turn a blind eye.
+
+                            Now in his third year of high school, Shouya is still plagued by his wrongdoings as a young boy. Sincerely regretting his past actions, he sets out on a journey of redemption: to meet Shouko once more and make amends.
+                            
+                            Koe no Katachi tells the heartwarming tale of Shouya's reunion with Shouko and his honest attempts to redeem himself, all while being continually haunted by the shadows of his past.
+                          </p>
+                          </div>
+</div>
+<div style="margin:40px;" class="shonen" id="character">
+  <img src="c1.webp" style="height:300px;width:300px;">
+  <img src="c2.webp" style="height:300px;width:300px;">
+  <img src="c3.webp" style="height:300px;width:300px;">
+  <img src="c4.webp" style="height:300px;width:300px;">
+  <img src="c5.webp" style="height:300px;width:300px;">
+  <img src="c6.webp" style="height:300px;width:300px;">
+  <img src="c7.webp" style="height:300px;width:300px;">
+  <img src="c8.webp" style="height:300px;width:300px;">
+  <img src="c9.webp" style="height:300px;width:300px;">
+  <img src="c10.webp" style="height:300px;width:300px;">
+  <img src="c11.webp" style="height:300px;width:300px;">
+  <img src="c12.webp" style="height:300px;width:300px;">
+</div>
+</body>
+</html>
